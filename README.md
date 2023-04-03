@@ -7,6 +7,8 @@ This is a repo of links and tools that makes Graphite even more awesome. Feel fr
 
 ### Bookmarklet
 
+<img width="328" alt="image" src="https://user-images.githubusercontent.com/573204/229561599-3fa10597-0d40-4f21-a1c7-83054f3606c0.png">
+
 You can add a bookmarklet to easily open Github from any Graphite page. Right-click in the bookmarks bar and click "Add Page". Title can be "Open in GH" or whatever you want, and URL is the following:
 
 ```
