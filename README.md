@@ -1,7 +1,9 @@
 # graphite-plus-plus
-Graphite.dev is a phenomenal dev tool that brings branch stacking to the masses. This is a repo of links and tools that makes Graphite even more awesome.
+Graphite.dev is a phenomenal dev tool that brings branch stacking to the masses (and so much more... they're eating Github's lunch, in my opinion).
 
-## Easier Github Access
+This is a repo of links and tools that makes Graphite even more awesome. Feel free to contribute!
+
+## Improving Github Access
 
 ### Bookmarklet
 
