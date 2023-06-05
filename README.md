@@ -9,6 +9,8 @@ This is a repo of links and tools that makes Graphite even more awesome. Feel fr
 
 Here's some JavaScript that will [add GitHub "copy" and "open" buttons to the top of the Graphite interface](https://gist.github.com/benjaffe/8ce3be07f5221f4ec4f0922c6ad4e470). If you use Arc Browser, you can use Boosts to add this code. Or you can use any Chrome or Firefox extensions that let you inject arbitrary JS.
 
+<img width="486" alt="image" src="https://github.com/benjaffe/graphite-plus-plus/assets/573204/46568bc1-91de-4601-aebb-63bf0b005816">
+
 ### Bookmarklet
 
 <img width="328" alt="image" src="https://user-images.githubusercontent.com/573204/229561599-3fa10597-0d40-4f21-a1c7-83054f3606c0.png">
