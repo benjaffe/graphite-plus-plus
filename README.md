@@ -5,7 +5,7 @@ This is a repo of links and tools that makes Graphite even more awesome. Feel fr
 
 ## Improving Github Access
 
-### Using Arc Browser Boosts (or any other extension that lets you add JS)
+Using Arc Browser Boosts (or any other extension that lets you add JS)
 
 Here's some JavaScript that will [add GitHub "copy" and "open" buttons to the top of the Graphite interface](https://gist.github.com/benjaffe/8ce3be07f5221f4ec4f0922c6ad4e470). If you use Arc Browser, you can use Boosts to add this code. Or you can use any Chrome or Firefox extensions that let you inject arbitrary JS.
 
@@ -22,8 +22,17 @@ javascript:(function()%7B(()%3D>%7Bif (window.location.hostname %3D%3D%3D 'app.g
 ```
 ![image](https://user-images.githubusercontent.com/573204/229560063-4b55ab38-bb92-40b4-b73b-7ee38c849b46.png)
 
-### Chrome Extension
+### Browser Extension
 
-If you're on a Chromium-based browser, you can install the [GitHub Button for Graphite](https://chrome.google.com/webstore/detail/github-button-for-graphit/kfeljefjihmhdfhclfippknhgckkpihj) extension to add a link to the Graphite code review page directly to the GitHub PR that it corresponds with.
+There are two options if you're on a Chromium-based browser (Chrome, Brave, Arc, etc):
+
+I made a chrome extension for myself, which you can find in this repo under the folder `graphite-github-buttons`. The new buttons are in a place that's accessible if Graphite gets stuck on the loading screen. This is a good option if you want visiblity and control over the code that's running, and without the possibility of the extension auto-updating. This is also a good option if you want to write your own custom CSS or JS for Graphite. 
+
+Installation: Download the folder and put it somewhere where it won't move. Open the extensions window in your browser and click "Developer Mode", then "Load Unpacked Extension". Choose the folder, and the extension will load. You may have to reload any Graphite windows that are open.
+
+<img width="530" alt="image" src="https://github.com/benjaffe/graphite-plus-plus/assets/573204/7be804c4-f957-4903-8d9c-e9bb0344ad73">
+
+
+Another Graphite user wrote an extension and [published it here](https://chrome.google.com/webstore/detail/github-button-for-graphit/kfeljefjihmhdfhclfippknhgckkpihj) extension to add a link to the Graphite code review page directly to the GitHub PR that it corresponds with. You don't get as much control, but installation is as easy as clicking a button, and updates happen automatically in case Graphite changes their interface in a breaking way.
 
 ![GitHub button for Graphite Screenshot](https://user-images.githubusercontent.com/1403638/229561035-a0156d37-1686-41d6-9f39-20074f96a281.jpg)
