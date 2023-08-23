@@ -7,10 +7,36 @@ This is a repo of links and tools that makes Graphite even more awesome. Feel fr
 
 ### CLI
 
-To copy the Graphite link to the clipboard from the CLI, run the following (I have it aliased to `dpc`)
+To open or copy the Graphite or Github links to the clipboard from the CLI, run the following
 
 ```
+# Open Graphite Page
+gt dp
+
+# Open Github Page
+gt bi | grep -F app.graphite.dev | sed -E 's|https://app\.graphite\.dev/github/pr/([^/]+)/([^/]+)/([^/]+)|https://github.com/\1/\2/pull/\3|' | xargs open
+
+# Copy Graphite Page
 gt bi | grep -F app.graphite.dev | pbcopy
+
+# Copy Github Page
+gt bi | grep -F app.graphite.dev | sed -E 's|https://app\.graphite\.dev/github/pr/([^/]+)/([^/]+)/([^/]+)|https://github.com/\1/\2/pull/\3|' | pbcopy
+```
+
+You can also alias them, or use fish `abbr`s to put them just a few keystrokes away. I alias them in fish shell like this:
+
+```
+# Open Graphite Page
+abbr dp "gt dp"
+
+# Open Github Page
+abbr dpg "gt bi | grep -F app.graphite.dev | sed -E 's|https://app\.graphite\.dev/github/pr/([^/]+)/([^/]+)/([^/]+)|https://github.com/\1/\2/pull/\3|' | xargs open"
+
+# Copy Graphite Page
+abbr dc "gt bi | grep -F app.graphite.dev | pbcopy"
+
+# Copy Github Page
+abbr dg "gt bi | grep -F app.graphite.dev | sed -E 's|https://app\.graphite\.dev/github/pr/([^/]+)/([^/]+)/([^/]+)|https://github.com/\1/\2/pull/\3|' | pbcopy"
 ```
 
 ### Browser Extension
