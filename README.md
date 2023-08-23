@@ -5,6 +5,14 @@ This is a repo of links and tools that makes Graphite even more awesome. Feel fr
 
 ## Improving Github Access
 
+### CLI
+
+To copy the Graphite link to the clipboard from the CLI, run the following (I have it aliased to `dpc`)
+
+```
+gt bi | grep -F app.graphite.dev | pbcopy
+```
+
 ### Browser Extension
 
 There are two options if you're on a Chromium-based browser (Chrome, Brave, Arc, etc):
