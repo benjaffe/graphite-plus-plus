@@ -73,3 +73,6 @@ javascript:(function()%7B(()%3D>%7Bif (window.location.hostname %3D%3D%3D 'app.g
 ```
 ![image](https://user-images.githubusercontent.com/573204/229560063-4b55ab38-bb92-40b4-b73b-7ee38c849b46.png)
 
+### Other options
+
+https://www.linen.dev/s/graphite/t/12313428/how-do-i-get-from-the-dashboard-to-the-github-view-of-the-pr#8a31cf5c-2074-48eb-8f03-5cd43d31bc7c
