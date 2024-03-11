@@ -19,6 +19,10 @@ function makeGithubPrUrl() {
   }/`;
 }
 
+function makeGithubMultiPrUrl() {
+  return `[github PR](${makeGithubPrUrl()}) / [on graphite](${window.location.toString()})`;
+}
+
 // fn determines whether the element should hide itself
 function renderButton(text, onclick, container, fn) {
   const existingElem = document.getElementById(`Button-${text}`);
@@ -67,6 +71,12 @@ function renderUI() {
     () => window.open(makeGithubPrUrl()),
     wrapper,
     isGraphitePr
+  );
+  renderButton(
+    "Copy multi-link md",
+    () => navigator.clipboard.writeText(makeGithubMultiPrUrl()),
+    wrapper,
+    isGraphitePr,
   );
   setTimeout(renderUI, 500); // rerender every second
 }
